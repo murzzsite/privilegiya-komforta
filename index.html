@@ -1,0 +1,392 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Умный дом под ключ в Казани — Привилегия Комфорта</title>
+<meta name="description" content="Умный дом под ключ в Казани: свет, климат, охрана, полив, подогрев кровли и дорожек в одной экосистеме Apple. Гибридная сборка, 5 лет гарантии. От 2,5 млн ₽.">
+<meta property="og:title" content="Привилегия Комфорта — умный дом под ключ в Казани">
+<meta property="og:description" content="14 систем в одной экосистеме: свет, климат, охрана, полив, подогрев кровли и дорожек. От 2,5 млн ₽ под ключ.">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#eceff1">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='9' fill='%2314181b'/%3E%3Cpath d='M6 17 L16 8 L26 17' fill='none' stroke='%23fff' stroke-width='2.6' stroke-linecap='round' stroke-linejoin='round'/%3E%3Ccircle cx='16' cy='21.5' r='3.2' fill='%23ffb454'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Onest:wght@300..800&family=Unbounded:wght@400..800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="motion.css">
+<link rel="stylesheet" href="styles.css">
+<noscript><style>.day{height:auto!important}.day__sticky{position:static!important;height:auto!important}.mk-on .mk-reveal{opacity:1}</style></noscript>
+</head>
+<body>
+
+<header class="bar" id="bar">
+  <a class="logo" href="#top" aria-label="Привилегия Комфорта, умный дом в Казани">
+    <svg viewBox="0 0 32 32" width="34" height="34" aria-hidden="true"><rect width="32" height="32" rx="9" fill="#14181b"/><path d="M6 17 L16 8 L26 17" fill="none" stroke="#fff" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/><circle cx="16" cy="21.5" r="3.2" fill="#ffb454"/></svg>
+    <span>Привилегия Комфорта<small>умный дом · Казань</small></span>
+  </a>
+  <nav class="nav" aria-label="Разделы">
+    <a href="#day" data-roll>Дом за сутки</a>
+    <a href="#systems" data-roll>Системы</a>
+    <a href="#price" data-roll>Цена</a>
+    <a href="#steps" data-roll>Как работаем</a>
+    <a href="#faq" data-roll>Вопросы</a>
+  </nav>
+  <a class="bar__tel" href="tel:+79636725298">+7 963 672-52-98</a>
+  <a class="btn btn--sm" href="#order" data-magnetic><span class="hide-s">Получить расчёт</span><span class="show-s">Расчёт</span></a>
+</header>
+
+<main>
+<!-- HERO -->
+<section class="hero" id="top">
+  <div class="hero__text">
+    <h1 data-wave data-wave-min="480" data-wave-max="760">Дом, который думает за вас</h1>
+    <p class="hero__lead">Проектируем и монтируем умный дом под ключ в Казани. Свет, климат, охрана, полив, подогрев кровли и дорожек работают сами, а управление собрано в одной экосистеме Apple.</p>
+    <div class="hero__cta">
+      <a class="btn" href="#order" data-magnetic>Получить расчёт</a>
+      <a class="btn btn--ghost" href="#day" data-magnetic>Посмотреть, как дом живёт</a>
+    </div>
+    <dl class="facts">
+      <div><dt>2,5 млн ₽</dt><dd>под ключ, 14 систем</dd></div>
+      <div><dt>5 лет</dt><dd>гарантии на работы</dd></div>
+      <div><dt>1 год</dt><dd>обкатки под вашу жизнь</dd></div>
+    </dl>
+  </div>
+
+  <div class="phone-wrap">
+    <div class="phone" id="phone" aria-label="Пример экрана статуса дома">
+      <div class="phone__notch" aria-hidden="true"></div>
+      <div class="phone__screen">
+        <div class="phone__head"><b>Мой дом</b><span id="phClock">18:20</span></div>
+        <p class="phone__state" id="phState">Всё в порядке</p>
+        <div class="tiles" id="tiles">
+          <button type="button" class="tile" data-k="light" aria-pressed="false"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 18h6M10 21h4M12 3a6 6 0 0 0-3.6 10.8c.6.5 1 1.2 1 2V16h5.2v-.2c0-.8.4-1.5 1-2A6 6 0 0 0 12 3Z"/></svg><span>Свет на улице</span><em data-on="Авто, 40%" data-off="Выключен">Выключен</em></button>
+          <button type="button" class="tile" data-k="gate" aria-pressed="false"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="5" y="11" width="14" height="9" rx="2"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/></svg><span>Калитка</span><em data-on="Открыта, свой" data-off="Закрыта">Закрыта</em></button>
+          <button type="button" class="tile" data-k="clim" aria-pressed="true"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v10.2a3.5 3.5 0 1 1-3 0V4a1.5 1.5 0 0 1 3 0Z"/></svg><span>Климат</span><em data-on="22,5°, 4 зоны" data-off="Пауза">22,5°, 4 зоны</em></button>
+          <button type="button" class="tile" data-k="guard" aria-pressed="true"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3 5 6v5c0 4.4 2.9 8 7 10 4.1-2 7-5.6 7-10V6l-7-3Z"/><path d="m9 12 2.2 2.2L15 10"/></svg><span>Охрана</span><em data-on="Пульт ГБР" data-off="Снята">Пульт ГБР</em></button>
+          <button type="button" class="tile" data-k="roof" aria-pressed="false"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 12 12 4l9 8M6 10v9h12v-9"/></svg><span>Кровля</span><em data-on="Подогрев, снег" data-off="Ждёт осадков">Ждёт осадков</em></button>
+          <button type="button" class="tile" data-k="water" aria-pressed="false"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3c3.5 4.2 5.5 7 5.5 10a5.5 5.5 0 0 1-11 0c0-3 2-5.8 5.5-10Z"/></svg><span>Полив</span><em data-on="Зона 2, идёт" data-off="Почва в норме">Почва в норме</em></button>
+        </div>
+        <p class="phone__log" id="phLog" aria-live="polite">18:20 Закат. Уличный свет включён.</p>
+      </div>
+    </div>
+    <p class="phone__cap">Пример интерфейса. Нажмите на плитку: так вы управляете домом с iPhone.</p>
+  </div>
+</section>
+
+<div class="belt" aria-hidden="true">
+  <div class="belt__track" id="belt">
+    <span>Свет по закату</span><span>Подогрев кровли</span><span>Доступ по лицу</span><span>Полив по влажности почвы</span><span>Тёплый пол</span><span>Шторы по сценарию</span><span>Охрана с выводом на пульт ГБР</span><span>Котёл по метеостанции</span><span>Wi‑Fi без швов</span>
+    <span>Свет по закату</span><span>Подогрев кровли</span><span>Доступ по лицу</span><span>Полив по влажности почвы</span><span>Тёплый пол</span><span>Шторы по сценарию</span><span>Охрана с выводом на пульт ГБР</span><span>Котёл по метеостанции</span><span>Wi‑Fi без швов</span>
+  </div>
+</div>
+
+<!-- MANIFEST -->
+<section class="manifest" aria-label="Идея">
+  <p id="manifest">Забыли выключить свет на улице. Не расчистили дорожку от снега. Снова сохнет газон. Хороший дом не просит об этом помнить: он чувствует погоду, время и присутствие сам, а вы просто живёте.</p>
+</section>
+
+<!-- SCENE -->
+<section class="day" id="day" aria-labelledby="dayH">
+  <div class="day__sticky">
+    <div class="day__copy">
+      <h2 id="dayH" class="day__h">Один день и одна зима дома</h2>
+      <div class="clock" aria-live="polite">
+        <span class="clock__t" id="clockT">06:40</span>
+        <span class="clock__l" id="clockL">Утро</span>
+      </div>
+      <p class="day__txt" id="dayTxt"></p>
+      <ul class="chips" id="dayChips" aria-label="Что работает сейчас"></ul>
+      <div class="count"><span><b id="cnt">4</b> из 14 систем работают</span>
+        <div class="ticks" id="ticks" aria-hidden="true"></div>
+      </div>
+      <div class="stages" id="stages" role="group" aria-label="Перейти к этапу">
+        <button type="button" data-s="0">Утро</button><button type="button" data-s="1">День</button><button type="button" data-s="2">Закат</button><button type="button" data-s="3">Ночь</button><button type="button" data-s="4">Зима</button>
+      </div>
+    </div>
+
+    <div class="scene" aria-hidden="true">
+      <svg id="scene" viewBox="0 0 900 520" role="img" aria-label="Дом в разное время суток и зимой: системы включаются по очереди" font-family="Onest, system-ui, sans-serif">
+        <defs>
+          <linearGradient id="skyG" x1="0" y1="0" x2="0" y2="1"><stop id="skyA" offset="0" stop-color="#a9c0dc"/><stop id="skyB" offset="1" stop-color="#f8d9b0"/></linearGradient>
+          <radialGradient id="glowG"><stop offset="0" stop-color="#ffc766" stop-opacity=".95"/><stop offset="1" stop-color="#ffc766" stop-opacity="0"/></radialGradient>
+          <clipPath id="clipScene"><rect width="900" height="520" rx="22"/></clipPath>
+        </defs>
+        <g clip-path="url(#clipScene)">
+          <rect width="900" height="520" fill="url(#skyG)"/>
+          <g id="clouds" opacity=".15" fill="#fff">
+            <g><ellipse cx="170" cy="86" rx="62" ry="17"/><ellipse cx="208" cy="76" rx="38" ry="15"/></g>
+            <g><ellipse cx="700" cy="60" rx="70" ry="18"/><ellipse cx="738" cy="49" rx="42" ry="15"/></g>
+            <g><ellipse cx="480" cy="40" rx="46" ry="12"/></g>
+          </g>
+          <g id="sun"><circle r="64" fill="url(#glowG)" opacity=".7"/><circle r="30" fill="#ffd27a"/></g>
+          <g id="moon" opacity="0"><circle r="46" fill="#fff" opacity=".10"/><path d="M0 -24 A24 24 0 1 0 0 24 A18 18 0 1 1 0 -24Z" fill="#f3f0e2"/></g>
+
+          <path id="hills" d="M0 318 Q120 268 260 304 T520 298 T760 296 T900 308 V420 H0Z" fill="#9db98f" opacity=".75"/>
+          <rect id="lawn" y="330" width="900" height="190" fill="#a8cc96"/>
+
+          <!-- подъезд -->
+          <rect id="drive" y="466" width="900" height="54" fill="#b9c1c7"/>
+          <line x1="0" y1="488" x2="900" y2="488" stroke="#e9eef0" stroke-width="2" stroke-dasharray="26 22" opacity=".8"/>
+          <rect id="driveSnow" y="462" width="900" height="58" fill="#fff" opacity="0"/>
+          <g id="driveHeat" opacity="0" fill="none" stroke="#e8933a" stroke-width="3" stroke-linecap="round"></g>
+
+          <!-- котельная -->
+          <g id="boilerHouse">
+            <path id="smoke" d="M706 296 q-8 -16 4 -28 q12 -12 2 -28" fill="none" stroke="#fff" stroke-width="6" stroke-linecap="round" opacity="0"/>
+            <rect x="700" y="298" width="12" height="30" fill="#6f7b85"/>
+            <rect x="648" y="326" width="84" height="76" fill="#eceff0" stroke="#c4cbd0" stroke-width="2"/>
+            <polygon points="640,328 690,300 740,328" fill="#4a5560"/>
+            <rect x="672" y="350" width="36" height="34" rx="4" fill="#cfd6db"/>
+            <g id="flame" opacity="0"><path d="M690 380 c-9 -8 -3 -16 0 -24 c3 8 9 14 0 24Z" fill="#ff9a3c"/><circle cx="690" cy="366" r="22" fill="url(#glowG)"/></g>
+          </g>
+
+          <!-- дом -->
+          <g id="house">
+            <rect x="250" y="225" width="400" height="175" fill="#fbfaf8" stroke="#c9cfd3" stroke-width="2"/>
+            <rect x="244" y="396" width="412" height="10" fill="#cfd5d9"/>
+            <path id="floorHeat" fill="none" stroke="#e8933a" stroke-width="3" stroke-linecap="round" opacity="0" d=""/>
+            <rect x="535" y="118" width="24" height="46" fill="#6f7b85"/>
+            <g id="vent" opacity="0" fill="none" stroke="#6f7b85" stroke-width="2.4" stroke-linecap="round"><path class="flow" d="M542 108 q-6 -10 0 -20"/><path class="flow" d="M548 108 q6 -12 0 -24" style="animation-delay:-.4s"/><path class="flow" d="M554 108 q-6 -10 0 -18" style="animation-delay:-.8s"/></g>
+            <polygon points="225,228 450,110 675,228" fill="#4a5560"/>
+            <path id="roofHeat" d="M240 222 L450 112 L660 222" fill="none" stroke="#ffb454" stroke-width="4" stroke-linecap="round" stroke-dasharray="3 9" opacity="0" class="flow"/>
+            <polygon id="roofSnow" points="225,222 450,102 675,222 663,230 450,118 237,230" fill="#fff" stroke="#e1e8ec" stroke-width="2" opacity="0"/>
+            <g id="icicles" fill="#e8f2f8" opacity="0"></g>
+
+            <!-- окна: 4 в стене и 1 на кровле -->
+            <g class="win" transform="translate(272 262)"><ellipse class="wg" cx="26" cy="44" rx="40" ry="52" fill="url(#glowG)" opacity="0"/><rect class="glass" width="52" height="76" rx="3" fill="#cfe3ee"/><rect class="curt" width="52" height="76" fill="#e6dccb"/><rect width="52" height="76" rx="3" fill="none" stroke="#8e99a1" stroke-width="3"/><path d="M26 0V76M0 38H52" stroke="#8e99a1" stroke-width="1.5"/></g>
+            <g class="win" transform="translate(340 262)"><ellipse class="wg" cx="26" cy="44" rx="40" ry="52" fill="url(#glowG)" opacity="0"/><rect class="glass" width="52" height="76" rx="3" fill="#cfe3ee"/><rect class="curt" width="52" height="76" fill="#e6dccb"/><rect width="52" height="76" rx="3" fill="none" stroke="#8e99a1" stroke-width="3"/><path d="M26 0V76M0 38H52" stroke="#8e99a1" stroke-width="1.5"/></g>
+            <g class="win" transform="translate(508 262)"><ellipse class="wg" cx="26" cy="44" rx="40" ry="52" fill="url(#glowG)" opacity="0"/><rect class="glass" width="52" height="76" rx="3" fill="#cfe3ee"/><rect class="curt" width="52" height="76" fill="#e6dccb"/><rect width="52" height="76" rx="3" fill="none" stroke="#8e99a1" stroke-width="3"/><path d="M26 0V76M0 38H52" stroke="#8e99a1" stroke-width="1.5"/></g>
+            <g class="win" transform="translate(576 262)"><ellipse class="wg" cx="26" cy="44" rx="40" ry="52" fill="url(#glowG)" opacity="0"/><rect class="glass" width="52" height="76" rx="3" fill="#cfe3ee"/><rect class="curt" width="52" height="76" fill="#e6dccb"/><rect width="52" height="76" rx="3" fill="none" stroke="#8e99a1" stroke-width="3"/><path d="M26 0V76M0 38H52" stroke="#8e99a1" stroke-width="1.5"/></g>
+            <g class="win" transform="translate(428 150)"><ellipse class="wg" cx="22" cy="22" rx="34" ry="30" fill="url(#glowG)" opacity="0"/><rect class="glass" width="44" height="36" rx="3" fill="#cfe3ee"/><rect class="curt" width="44" height="36" fill="#e6dccb"/><rect width="44" height="36" rx="3" fill="none" stroke="#9aa5ad" stroke-width="3"/><path d="M22 0V36" stroke="#9aa5ad" stroke-width="1.5"/></g>
+
+            <rect x="424" y="300" width="52" height="100" rx="3" fill="#2b343b"/><circle cx="466" cy="352" r="3" fill="#ffb454"/>
+            <rect x="404" y="306" width="8" height="16" rx="2" fill="#8e99a1"/>
+            <rect x="492" y="304" width="34" height="20" rx="3" fill="#fff" stroke="#8e99a1" stroke-width="1.5"/>
+            <text id="plaque" x="509" y="319" text-anchor="middle" font-size="14" font-weight="700" fill="#14181b">12</text>
+          </g>
+
+          <!-- забор и ворота -->
+          <g id="fence" stroke="#7d8890" stroke-width="3" stroke-linecap="round">
+            <line x1="10" y1="392" x2="10" y2="450"/><line x1="40" y1="392" x2="40" y2="450"/><line x1="160" y1="392" x2="160" y2="450"/><line x1="190" y1="392" x2="190" y2="450"/>
+            <line x1="10" y1="402" x2="70" y2="402"/><line x1="10" y1="438" x2="70" y2="438"/><line x1="130" y1="402" x2="190" y2="402"/><line x1="130" y1="438" x2="190" y2="438"/>
+          </g>
+          <g id="gateL"><rect x="70" y="394" width="30" height="54" rx="2" fill="#aab4bb" stroke="#7d8890" stroke-width="2"/><path d="M78 394v54M86 394v54M94 394v54" stroke="#7d8890" stroke-width="1.5"/></g>
+          <g id="gateR"><rect x="100" y="394" width="30" height="54" rx="2" fill="#aab4bb" stroke="#7d8890" stroke-width="2"/><path d="M108 394v54M116 394v54M124 394v54" stroke="#7d8890" stroke-width="1.5"/></g>
+          <g id="face" opacity="0">
+            <rect x="196" y="352" width="46" height="52" rx="8" fill="#fff" fill-opacity=".75" stroke="#14181b" stroke-width="1.5"/>
+            <path d="M203 366v-8h8M235 358h-0M242 358v8M203 390v8h8M242 390v8h-8" fill="none" stroke="#e8933a" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+            <circle cx="219" cy="373" r="8" fill="none" stroke="#14181b" stroke-width="2"/><path d="M205 396c2-9 8-12 14-12s12 3 14 12" fill="none" stroke="#14181b" stroke-width="2" stroke-linecap="round"/>
+            <line id="scanLine" x1="200" y1="366" x2="238" y2="366" stroke="#e8933a" stroke-width="2"/>
+            <circle id="okDot" cx="238" cy="357" r="9" fill="#2e8b57" opacity="0"/><path id="okTick" d="M233.5 357l3 3 5-6" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" opacity="0"/>
+          </g>
+
+          <!-- камеры -->
+          <g id="cams" opacity="0">
+            <polygon class="cone" points="262,250 130,372 250,420" fill="url(#glowG)"/>
+            <polygon class="cone" points="640,250 760,340 700,432" fill="url(#glowG)" style="animation-delay:-.7s"/>
+            <rect x="252" y="240" width="22" height="12" rx="3" fill="#14181b"/><circle cx="257" cy="246" r="2.6" fill="#ff5a4d"/>
+            <rect x="626" y="240" width="22" height="12" rx="3" fill="#14181b"/><circle cx="643" cy="246" r="2.6" fill="#ff5a4d"/>
+          </g>
+
+          <!-- спринклеры, четыре зоны -->
+          <g id="spr" opacity="0" fill="none" stroke="#5fb3e6" stroke-width="2.4" stroke-linecap="round"></g>
+
+          <!-- Wi-Fi -->
+          <g id="wifi" opacity="0" fill="none" stroke="#14181b" stroke-width="3" stroke-linecap="round">
+            <path class="pulse" d="M425 92 a36 36 0 0 1 50 0"/><path class="pulse" d="M409 74 a60 60 0 0 1 82 0" style="animation-delay:.25s"/><path class="pulse" d="M393 56 a84 84 0 0 1 114 0" style="animation-delay:.5s"/><circle cx="450" cy="104" r="3.4" fill="#14181b" stroke="none"/>
+          </g>
+
+          <!-- метеостанция -->
+          <g id="station">
+            <line x1="848" y1="344" x2="848" y2="446" stroke="#7d8890" stroke-width="4" stroke-linecap="round"/>
+            <line x1="826" y1="344" x2="870" y2="344" stroke="#7d8890" stroke-width="3" stroke-linecap="round"/>
+            <circle cx="826" cy="344" r="7" fill="#e6ebee" stroke="#7d8890" stroke-width="2"/><circle cx="870" cy="344" r="7" fill="#e6ebee" stroke="#7d8890" stroke-width="2"/>
+            <rect x="838" y="372" width="20" height="24" rx="4" fill="#fff" stroke="#7d8890" stroke-width="2"/>
+            <circle id="wsDot" cx="848" cy="384" r="4" fill="#5fb3e6" opacity="0"/>
+          </g>
+
+          <!-- ночная тень -->
+          <rect id="shade" y="100" width="900" height="420" fill="#14233a" opacity="0" style="pointer-events:none"/>
+
+          <!-- уличные фонари и подсветка -->
+          <g id="lamps" opacity="0">
+            <circle cx="226" cy="396" r="62" fill="url(#glowG)"/><circle cx="764" cy="396" r="62" fill="url(#glowG)"/><circle cx="408" cy="314" r="46" fill="url(#glowG)"/>
+            <rect x="480" y="296" width="58" height="36" rx="10" fill="url(#glowG)" opacity=".8"/>
+          </g>
+          <g id="posts" fill="#14181b">
+            <rect x="223" y="402" width="6" height="42"/><circle cx="226" cy="398" r="7" fill="#fff" stroke="#14181b" stroke-width="2"/>
+            <rect x="761" y="402" width="6" height="42"/><circle cx="764" cy="398" r="7" fill="#fff" stroke="#14181b" stroke-width="2"/>
+          </g>
+
+          <!-- ГБР -->
+          <g id="gbr" opacity="0">
+            <circle class="ring" cx="780" cy="154" r="22" fill="none" stroke="#e8933a" stroke-width="2.5"/>
+            <circle class="ring" cx="780" cy="154" r="22" fill="none" stroke="#e8933a" stroke-width="2.5" style="animation-delay:-.9s"/>
+            <rect x="742" y="138" width="76" height="32" rx="16" fill="#14181b"/>
+            <text x="780" y="159" text-anchor="middle" font-size="14" font-weight="700" fill="#fff">Пульт ГБР</text>
+          </g>
+
+          <!-- снег -->
+          <g id="snow" opacity="0" fill="#fff"></g>
+        </g>
+      </svg>
+      <p class="scene__cap">Иллюстрация: условный дом, чтобы показать логику работы систем.</p>
+    </div>
+  </div>
+</section>
+
+<!-- SYSTEMS -->
+<section class="systems" id="systems" aria-labelledby="sysH">
+  <div class="sec__head">
+    <h2 id="sysH" class="mask">Что входит в дом</h2>
+    <p class="lead">Четырнадцать систем в одной сборке. Откройте любую, чтобы увидеть, что она делает и что вы получаете.</p>
+  </div>
+  <div class="sys" id="sysList">
+    <details name="sys" open><summary><span class="sys__n">Основа</span><b>Электромонтаж и сантехника</b></summary><div class="sys__body"><p>Премиальный электромонтаж и сантехника: фундамент, на котором работают все остальные системы.</p><p class="sys__get">Вы получаете: инженерку, заложенную в смету сразу. Это 0,8 млн ₽ из 2,5 млн.</p></div></details>
+    <details name="sys"><summary><span class="sys__n">Климат</span><b>Вентиляция и температура по зонам</b></summary><div class="sys__body"><p>Система с минимальной вытяжкой и зональный контроль температуры до 4 зон.</p><p class="sys__get">Вы получаете: нужная температура в каждой комнате и всегда проветренное свежее помещение. Вентиляция не даёт распространяться плесени и грибку.</p></div></details>
+    <details name="sys"><summary><span class="sys__n">Климат</span><b>Тёплый пол</b></summary><div class="sys__body"><p>Прогрев помещения по всей площади, управление в общей системе.</p><p class="sys__get">Вы получаете: дополнительный комфорт и сухой дом круглый год.</p></div></details>
+    <details name="sys"><summary><span class="sys__n">Климат</span><b>Отопление по метеостанции</b></summary><div class="sys__body"><p>Управление котлом: автоматика ведёт отопление по данным метеостанции, а не по вчерашней погоде.</p><p class="sys__get">Вы получаете: точную работу котла под реальную погоду за окном.</p></div></details>
+    <details name="sys"><summary><span class="sys__n">Свет</span><b>Шторы на пять окон</b></summary><div class="sys__body"><p>Электроприводы штор на до 5 окон: открываются и закрываются по сценарию.</p><p class="sys__get">Вы получаете: утро, которое начинается со света, и вечер без обхода окон.</p></div></details>
+    <details name="sys"><summary><span class="sys__n">Свет</span><b>Освещение в доме</b></summary><div class="sys__body"><p>Разные удобные сценарии освещения, которые включаются от присутствия.</p><p class="sys__get">Вы получаете: свет, который идёт за вами и сам выключается за спиной. Окончательные осветительные приборы в смету не входят.</p></div></details>
+    <details name="sys"><summary><span class="sys__n">Улица</span><b>Уличное освещение по закату</b></summary><div class="sys__body"><p>Автоматическое освещение от захода до восхода солнца с автодимированием.</p><p class="sys__get">Вы получаете: никогда не забытый свет на улице, всегда видный номер дома, экономию электроэнергии и статус дома в телефоне.</p></div></details>
+    <details name="sys"><summary><span class="sys__n">Улица</span><b>Полив на четыре зоны</b></summary><div class="sys__body"><p>Полив 4 зон с контролем по влажности почвы.</p><p class="sys__get">Вы получаете: газон без хлопот и без пересохших пятен.</p></div></details>
+    <details name="sys"><summary><span class="sys__n">Улица</span><b>Подогрев подъездных путей</b></summary><div class="sys__body"><p>Метеостанция включает подогрев точно по выпадению осадков.</p><p class="sys__get">Вы получаете: чистые дорожки без лопаты и дольше живущее дорожное полотно.</p></div></details>
+    <details name="sys"><summary><span class="sys__n">Улица</span><b>Подогрев кровли</b></summary><div class="sys__body"><p>Метеостанция включает подогрев кровли точно по выпадению осадков.</p><p class="sys__get">Вы получаете: никакого схода снега с крыши и висящих сосулек, плюс дольше живущую крышу.</p></div></details>
+    <details name="sys"><summary><span class="sys__n">Безопасность</span><b>Контроль доступа</b></summary><div class="sys__body"><p>Распознавание лица, пальца, ключ, код и многое другое. Калитка, ворота, гараж, баня, дом, кабинет.</p><p class="sys__get">Вы получаете: один способ входа на все двери и право решать, кому и куда можно.</p></div></details>
+    <details name="sys"><summary><span class="sys__n">Безопасность</span><b>Видеонаблюдение</b></summary><div class="sys__body"><p>До 2 камер с распознаванием лиц, машин и многого другого.</p><p class="sys__get">Вы получаете: камеры, которые различают своих и чужих, а не просто пишут картинку.</p></div></details>
+    <details name="sys"><summary><span class="sys__n">Безопасность</span><b>Охранная сигнализация</b></summary><div class="sys__body"><p>Охрана с возможностью вызова на пульт ГБР.</p><p class="sys__get">Вы получаете: спокойствие, когда дом пуст, и помощь, которая приедет по сигналу.</p></div></details>
+    <details name="sys"><summary><span class="sys__n">Связь</span><b>Wi‑Fi по всей территории</b></summary><div class="sys__body"><p>Стабильное бесшовное покрытие Wi‑Fi по всему дому и участку. Экосистема работает по любым беспроводным протоколам с оборудованием премиального качества.</p><p class="sys__get">Вы получаете: связь, на которой держатся все остальные системы.</p></div></details>
+  </div>
+</section>
+
+<!-- HYBRID -->
+<section class="hybrid" id="hybrid" aria-labelledby="hybH">
+  <div class="sec__head">
+    <h2 id="hybH" class="mask">Одна экосистема вместо зоопарка приложений</h2>
+    <p class="lead">Мы объединяем все известные системы автоматики в одной современной экосистеме. Сборка гибридная: главное остаётся стабильным, управление ушло в телефон.</p>
+  </div>
+  <div class="layers">
+    <div class="layer layer--top" data-reveal>
+      <h3>Управление</h3>
+      <p>Беспроводные протоколы и устройства Apple: iPhone, iPad, Mac. Все системы в одном приложении, без десятка пультов.</p>
+    </div>
+    <div class="layer layer--mid" data-reveal data-reveal-delay="120">
+      <h3>Главные системы</h3>
+      <p>Отопление, вентиляция, сигнализация, основной свет. Гибридная сборка сохраняет стабильность их работы.</p>
+    </div>
+    <div class="layer layer--low" data-reveal data-reveal-delay="240">
+      <h3>Инженерка</h3>
+      <p>Премиальный электромонтаж и сантехника. Закладывается в дом сразу, это основа всего остального.</p>
+    </div>
+  </div>
+</section>
+
+<!-- PRICE -->
+<section class="price" id="price" aria-labelledby="priceH">
+  <div class="sec__head">
+    <h2 id="priceH" class="mask">Сколько стоит</h2>
+    <p class="lead">Цена одна, без вилок и «от». Выберите, как вы заходите на объект.</p>
+  </div>
+  <div class="price__box">
+    <div class="tabs" data-pill role="group" aria-label="Как заходите на объект">
+      <button type="button" data-pill-item class="is-active" data-m="all" aria-pressed="true">Под ключ</button>
+      <button type="button" data-pill-item data-m="bare" aria-pressed="false">Голые стены</button>
+    </div>
+    <p class="price__num"><b id="pNum">2,5</b><span> млн ₽</span></p>
+    <p class="price__cap" id="pCap">Умный дом под ключ, без установки окончательных осветительных приборов и розеток. Из них 0,8 млн ₽ — заложенная инженерка.</p>
+    <div class="bar2" aria-hidden="true">
+      <i class="bar2__eng" id="barEng"><span>Инженерка 0,8 млн</span></i>
+      <i class="bar2__sm" id="barSm"><span>Умный дом 1,7 млн</span></i>
+    </div>
+    <a class="btn" href="#order" data-magnetic>Посчитать под мой объект</a>
+  </div>
+</section>
+
+<!-- STEPS -->
+<section class="steps" id="steps" aria-labelledby="stepsH">
+  <div class="sec__head">
+    <h2 id="stepsH" class="mask">От заявки до умного дома: пять шагов</h2>
+  </div>
+  <ol class="tl" id="tl">
+    <li><h3>Заявка и консультация</h3><p>Вы звоните или оставляете заявку. Обсуждаем задачи и называем ориентир по бюджету.</p></li>
+    <li><h3>Выезд и проект</h3><p>Инженер приезжает на объект, снимает размеры и готовит проект гибридной системы.</p></li>
+    <li><h3>Монтаж</h3><p>Полный цикл электромонтажных и слаботочных работ. На объекте работает ответственный прораб.</p></li>
+    <li><h3>Пусконаладка</h3><p>Настраиваем оборудование, сценарии и приложение. Обучаем вас управлению.</p></li>
+    <li><h3>Год обкатки</h3><p>Гарантийное сопровождение: донастраиваем систему под вашу реальную жизнь, затем передаём полный доступ.</p></li>
+  </ol>
+  <ul class="promise">
+    <li><b>5 лет</b> гарантии на выполненные монтажные работы</li>
+    <li><b>Пожизненное</b> администрирование системы</li>
+    <li><b>Не больше 5</b> объектов одновременно, на каждом свой прораб и бригада</li>
+  </ul>
+</section>
+
+<!-- CHANNELS -->
+<section class="proof" id="proof" aria-labelledby="proofH">
+  <div class="sec__head">
+    <h2 id="proofH" class="mask">Посмотрите работы до звонка</h2>
+    <p class="lead">Видео, фото щитов и готовых интерьеров лежат в наших каналах.</p>
+  </div>
+  <div class="links">
+    <a class="link" href="https://youtube.com/@electric.smartsystems" target="_blank" rel="noopener" data-magnetic><span>YouTube</span><small>видео работающих систем</small></a>
+    <a class="link" href="https://instagram.com/electric.smartsystems" target="_blank" rel="noopener" data-magnetic><span>Instagram</span><small>объекты и интерьеры</small></a>
+    <a class="link" href="https://max.ru/id166011675624_biz" target="_blank" rel="noopener" data-magnetic><span>Канал в MAX</span><small>новости и проекты</small></a>
+    <a class="link" href="https://t.me/the_privilege_of_comfort" target="_blank" rel="noopener" data-magnetic><span>Telegram</span><small>@the_privilege_of_comfort</small></a>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="faq" id="faq" aria-labelledby="faqH">
+  <div class="sec__head"><h2 id="faqH" class="mask">Частые вопросы</h2></div>
+  <div class="faq__list">
+    <details><summary>Чем управляется умный дом?</summary><p>Единый центр управления работает на базе экосистемы Apple: iPhone, iPad и Mac. Все системы собраны в одном приложении.</p></details>
+    <details><summary>Что не входит в 2,5 млн ₽?</summary><p>В цену под ключ не входит установка окончательных осветительных приборов и розеток. Всё остальное из списка систем входит, включая электромонтаж и сантехнику.</p></details>
+    <details><summary>Что такое гибридная сборка?</summary><p>Главные системы дома (отопление, вентиляция, сигнализация, основной свет) остаются стабильными, а управление идёт по беспроводным протоколам. Так экосистема получается и надёжной, и доступной по цене.</p></details>
+    <details><summary>Можно ли поставить умный дом в готовый ремонт?</summary><p>Да. Для готового ремонта подбираем беспроводные решения без штробления стен. Если ремонт впереди, рекомендуем заложить проводную инфраструктуру: она прослужит десятилетия.</p></details>
+    <details><summary>Что происходит после сдачи объекта?</summary><p>Берём дом на гарантийное обслуживание. Год система обкатывается под вашу жизнь, мы оперативно донастраиваем сценарии, затем передаём полный доступ.</p></details>
+    <details><summary>Вы работаете только в Казани?</summary><p>Основная зона — Казань и Республика Татарстан.</p></details>
+  </div>
+</section>
+
+<!-- ORDER -->
+<section class="order" id="order" aria-labelledby="orderH">
+  <div class="order__text">
+    <h2 id="orderH" class="mask">Рассчитаем ваш умный дом</h2>
+    <p class="lead">Оставьте номер: перезвоним, ответим на вопросы и назовём ориентировочную стоимость под вашу площадь и задачи.</p>
+    <ul class="contacts">
+      <li><a href="tel:+79636725298">+7 963 672-52-98</a></li>
+      <li><a href="https://t.me/the_privilege_of_comfort" target="_blank" rel="noopener">Telegram</a> · <a href="https://wa.me/79636725298" target="_blank" rel="noopener">WhatsApp</a> · <a href="https://max.ru/id166011675624_biz" target="_blank" rel="noopener">MAX</a></li>
+      <li><a href="mailto:fixroom740422@gmail.com">fixroom740422@gmail.com</a></li>
+      <li>г. Казань, ул. Восстания, д. 80А, офис 4</li>
+      <li>Будни 9:00–18:00</li>
+    </ul>
+  </div>
+  <form class="form" id="leadForm" novalidate>
+    <label>Имя<input name="name" type="text" autocomplete="name" required placeholder="Как к вам обращаться"></label>
+    <label>Телефон<input name="phone" type="tel" autocomplete="tel" required placeholder="+7 (___) ___-__-__"></label>
+    <label>Что у вас
+      <select name="object">
+        <option>Строящийся дом, голые стены</option>
+        <option>Дом, инженерка уже есть</option>
+        <option>Дом с готовым ремонтом</option>
+        <option>Квартира</option>
+        <option>Другое</option>
+      </select>
+    </label>
+    <label>Что хотите автоматизировать<textarea name="comment" rows="3" placeholder="Необязательно. Например: свет, полив, подогрев дорожек"></textarea></label>
+    <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off">
+    <button class="btn btn--block" type="submit" data-magnetic>Получить расчёт</button>
+    <p class="form__fine">Нажимая кнопку, вы соглашаетесь с <a href="privacy.html">политикой конфиденциальности</a>.</p>
+  </form>
+</section>
+</main>
+
+<footer class="foot">
+  <div class="foot__big" aria-hidden="true">Привилегия<br>Комфорта</div>
+  <div class="foot__row"><span>Умный дом под ключ в Казани и Республике Татарстан.</span><a href="privacy.html">Конфиденциальность</a><span>© <span id="year"></span> ИП Шевяков Д. Д.</span></div>
+</footer>
+
+<script src="motion.js" defer></script>
+<script src="script.js" defer></script>
+</body>
+</html>
