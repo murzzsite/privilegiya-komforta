@@ -236,27 +236,6 @@ const LEAD_ENDPOINT = 'https://lead-relay.leestygpt.workers.dev/lead/4RCQM87W26'
     requestAnimationFrame(loop);
   });
 
-  /* цена */
-  safe(() => {
-    const box = $('.price__box'); if (!box) return;
-    const num = $('#pNum'), cap = $('#pCap'), btns = $$('[data-m]', box);
-    const M = {
-      all: { v: 2.5, t: 'Умный дом под ключ, без установки окончательных осветительных приборов и розеток. Из них 0,8 млн ₽ — заложенная инженерка.' },
-      bare: { v: 1.7, t: 'Если заходить на голые стены, умный дом стоит 1,7 млн ₽. Из общей сметы 2,5 млн ₽ в него не входят 0,8 млн ₽ заложенной инженерки.' }
-    };
-    let cur = 2.5, raf;
-    const fmt = v => v.toFixed(1).replace('.', ',');
-    const to = v => {
-      cancelAnimationFrame(raf); const from = cur, t0 = performance.now();
-      const step = n => { const p = clamp((n - t0) / (reduce ? 1 : 700)); cur = from + (v - from) * (1 - Math.pow(1 - p, 3)); num.textContent = fmt(cur); if (p < 1) raf = requestAnimationFrame(step); };
-      raf = requestAnimationFrame(step);
-    };
-    btns.forEach(b => b.addEventListener('click', () => {
-      const m = b.dataset.m; box.dataset.m = m; to(M[m].v); cap.textContent = M[m].t;
-      btns.forEach(x => x.setAttribute('aria-pressed', x === b ? 'true' : 'false'));
-    }));
-  });
-
   /* шаги: линия «включается» */
   safe(() => {
     const tl = $('#tl'); if (!tl) return;

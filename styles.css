@@ -163,16 +163,9 @@ h2.mask{font-size:clamp(30px,4.6vw,64px);max-width:15em}
 
 /* price */
 .price__box{margin-top:40px;display:grid;gap:18px;justify-items:start;max-width:860px}
-.tabs{max-width:100%}
 .price__num{font:600 clamp(64px,13vw,170px)/.95 var(--f-display);letter-spacing:-.05em;font-variant-numeric:tabular-nums;color:var(--ink)}
-.price__num span{font-size:.28em;letter-spacing:-.02em;color:var(--mk-muted)}
-.price__cap{color:var(--mk-muted);max-width:32em;min-height:4.8em}
-.bar2{display:flex;width:100%;height:56px;gap:6px}
-.bar2 i{display:flex;align-items:center;padding-inline:16px;border-radius:14px;font-style:normal;font-weight:600;font-size:14.5px;white-space:nowrap;overflow:hidden;transition:flex-basis .8s cubic-bezier(.16,1,.3,1),background .5s,color .5s,opacity .5s}
-.bar2__eng{flex:0 0 31%;background:var(--ink);color:#fff}
-.bar2__sm{flex:1 1 0;background:var(--glow);color:var(--ink)}
-.price__box[data-m="bare"] .bar2__eng{flex-basis:0%;padding-inline:0;opacity:.0}
-@media (max-width:560px){.bar2 i{font-size:12.5px;padding-inline:10px}}
+.price__num .from,.price__num span{font-size:.28em;letter-spacing:-.02em;color:var(--mk-muted)}
+.price__cap{color:var(--mk-muted);font-size:20px;margin-top:-6px}
 
 /* steps */
 .tl{list-style:none;margin:48px 0 0;padding:0 0 0 38px;position:relative;max-width:760px}
@@ -223,3 +216,11 @@ h2.mask{font-size:clamp(30px,4.6vw,64px);max-width:15em}
 .foot{padding-block:30px 40px;border-top:1px solid var(--line)}
 .foot__big{font:600 clamp(30px,10.4vw,150px)/.94 var(--f-display);letter-spacing:-.05em;color:#c9d0d5;margin-bottom:26px}
 .foot__row{display:flex;flex-wrap:wrap;gap:10px 28px;font-size:14.5px;color:var(--mk-muted)}
+
+.logo img{display:block;border-radius:10px}
+.gallery{margin-top:40px;display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+.shot{margin:0;display:grid;gap:10px;align-content:start}
+.shot img{width:100%;height:auto;aspect-ratio:3/4;object-fit:cover;border-radius:22px;background:#dfe4e7;display:block}
+.shot figcaption{font-size:14.5px;color:var(--mk-muted);line-height:1.35;max-width:22em}
+.shot:nth-child(3n+2){margin-top:34px}
+@media (max-width:760px){.gallery{grid-template-columns:1fr 1fr;gap:12px}.shot:nth-child(3n+2){margin-top:0}.shot:nth-child(even){margin-top:24px}}
